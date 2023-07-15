@@ -178,4 +178,26 @@ select:-webkit-autofill:focus {
   line-height: 17px;
   letter-spacing: 1.5px;
 }
+
+
+/* LOGO */
+.logo {
+  display: block;
+  text-decoration: none;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.6;
+}
+
+.logo__img {
+  display: block;
+  width: 149px;
+  height: 25px;
+  object-fit: contain;
+}
 }
