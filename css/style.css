@@ -277,6 +277,17 @@ select:-webkit-autofill:focus {
   margin-right: 30px;
   object-fit: contain;
 }
+.feature-tab-panel__img--bookmark-manager {
+  margin-right: 125px;
+}
+
+.feature-tab-panel__img--simple {
+  margin-right: 115px;
+}
+
+.feature-tab-panel__img--sharing {
+  margin-right: 145px;
+}
 
 .feature-tab-panel__info {
   max-width: 445px;
