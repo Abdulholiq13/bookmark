@@ -232,6 +232,10 @@ select:-webkit-autofill:focus {
   text-decoration: none;
 }
 
+.sitenav--white .sitenav__link {
+  color: #fff;
+}
+
 .sitenav__link:hover {
   color: var(--red);
 }
@@ -450,6 +454,31 @@ select:-webkit-autofill:focus {
 
 .accordion__item-text {
   margin: 0;
+}
+
+/* SOCIALS */
+.socials {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.socials__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.socials__link {
+  display: flex;
+  color: #fff;
+}
+
+.socials__link:hover {
+  color: var(--red);
+}
+
+.socials__link:active {
+  opacity: 0.6;
 }
 
 
@@ -729,4 +758,24 @@ select:-webkit-autofill:focus {
 .subscription__field:valid+.validation-error,
 .subscription__field:placeholder-shown+.validation-error {
   display: none;
+}
+
+/* SITE-FOOTER */
+.site-footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: var(--text-color);
+}
+
+.site-footer__container {
+  display: flex;
+  align-items: center;
+}
+
+.site-footer__logo {
+  margin-right: 63px;
+}
+
+.site-footer__sitenav {
+  margin-right: auto;
 }
